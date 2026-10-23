@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CATÁLOGO — Revista Ilustrada de Géneros Visuales</title>
+  <meta name="description" content="Catálogo vintage estilo revista sobre las tipologías de géneros visuales: función comunicativa, soporte, estructura narrativa y contexto cultural." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ CINTA SUPERIOR (TICKER) ============ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__pista">
+      <span>✦ REVISTA ILUSTRADA DE GÉNEROS VISUALES ✦ Nº 04 ✦ AÑO XII ✦ PRECIO: 2 REALES ✦ TODO LO QUE SE VE, SE LEE ✦ GRATIS POR CORREO ✦&nbsp;&nbsp;&nbsp;</span>
+      <span>✦ REVISTA ILUSTRADA DE GÉNEROS VISUALES ✦ Nº 04 ✦ AÑO XII ✦ PRECIO: 2 REALES ✦ TODO LO QUE SE VE, SE LEE ✦ GRATIS POR CORREO ✦&nbsp;&nbsp;&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ============ CABECERA / CABECETA DE REVISTA ============ -->
+  <header class="cabecera">
+    <div class="cabecera__filete filete-doble"></div>
+
+    <div class="cabecera__fila cabecera__fila--top">
+      <span class="dato">Edición Especial</span>
+      <span class="dato dato--central">Fundada en 1913 · Semanario</span>
+      <span class="dato">Nº 04 — Vol. XII</span>
+    </div>
+
+    <h1 class="titulo-principal">
+      <span class="titulo-principal__palabra">Catálogo</span>
+    </h1>
+
+    <p class="titulo-bajada">
+      <span class="regla-lateral"></span>
+      Revista Ilustrada de los Géneros Visuales
+      <span class="regla-lateral"></span>
+    </p>
+
+    <div class="cabecera__fila cabecera__fila--bottom">
+      <span class="dato">Clasificación en 4 secciones</span>
+      <span class="dato dato--central">Impreso en tinta y papel</span>
+      <span class="dato">20 fichas · 22 láminas</span>
+    </div>
+
+    <div class="filete-doble"></div>
+    <nav class="menu" aria-label="Secciones de la revista">
+      <a href="#portada" class="menu__enlace">Portada</a>
+      <a href="#editorial" class="menu__enlace">Editorial</a>
+      <a href="#catalogo" class="menu__enlace">El Catálogo</a>
+      <a href="#glosario" class="menu__enlace">Glosario</a>
+      <a href="#colofon" class="menu__enlace">Colofón</a>
+    </nav>
+    <div class="filete-simple"></div>
+  </header>
+
+  <!-- ============ PORTADA ============ -->
+  <section class="portada" id="portada">
+    <div class="portada__rejilla">
+      <figure class="portada__lamina portada__lamina--grande reveal">
+        <img src="img/grabado-gran-ola.jpg" alt="La gran ola de Kanagawa, grabado en madera de Hokusai" />
+        <figcaption>Grabado en madera · Hokusai, ca. 1831</figcaption>
+      </figure>
+
+      <div class="portada__texto reveal">
+        <p class="antetitulo">Un recorrido por las artes de la imagen</p>
+        <h2 class="portada__titular">Todo lo que<br />se mira,<br /><em>tiene género</em></h2>
+        <p class="portada__entradilla">
+          Las tipologías de géneros visuales permiten identificar y categorizar
+          las imágenes según su función, su soporte, su estructura y el contexto
+          en el que circulan. Esta edición las reúne todas, ficha por ficha,
+          con láminas y notas al pie.
+        </p>
+        <a href="#catalogo" class="boton boton--tinta">Leer el catálogo</a>
+      </div>
+
+      <figure class="portada__lamina reveal">
+        <img src="img/retrato-perla.jpg" alt="Retrato de la chica con el arete de perla de Vermeer" />
+        <figcaption>Pintura de retrato · Vermeer, 1665</figcaption>
+      </figure>
+
+      <figure class="portada__lamina reveal">
+        <img src="img/propaganda-unclesam.jpg" alt="Póster de propaganda I Want You for U.S. Army" />
+        <figcaption>Póster de propaganda · Flagg, 1917</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ EDITORIAL ============ -->
+  <section class="editorial" id="editorial">
+    <div class="hoja hoja--editorial reveal">
+      <h3 class="titulo-seccion titulo-seccion--centrado">Editorial</h3>
+      <p class="texto-editorial">
+        <span class="capitular">L</span>as tipologías de géneros visuales se refieren a la
+        identificación y categorización de diferentes expresiones visuales determinadas
+        por sus características, funciones y contexto de uso, pudiendo variar según la
+        disciplina de estudio, el medio de comunicación o la finalidad del análisis.
+        En el contexto de la comunicación visual, Mitchell (2005) las define como
+        cualidades de los mensajes visuales que comparten rasgos comunes y que responden
+        a necesidades y objetivos específicos de comunicación, siendo dicha taxonomía
+        esencial en campos como el análisis visual, la historia del arte y la
+        comunicación y los estudios culturales.
+      </p>
+      <p class="firma-editorial">— Valeria Molina, redacción</p>
+    </div>
+  </section>
+
+  <!-- ============ CINTA DE FILTROS ============ -->
+  <div class="barra" id="catalogo">
+    <div class="barra__interior">
+      <h3 class="barra__titulo">El Catálogo</h3>
+
+      <div class="filtros" role="group" aria-label="Filtrar por función comunicativa">
+        <button class="filtro filtro--activo" data-filtro="todas">Todas las fichas</button>
+        <button class="filtro" data-filtro="informativos">Informativos</button>
+        <button class="filtro" data-filtro="persuasivos">Persuasivos</button>
+        <button class="filtro" data-filtro="artisticos">Artísticos</button>
+        <button class="filtro" data-filtro="soporte">Por soporte</button>
+        <button class="filtro" data-filtro="narrativa">Narrativa</button>
+        <button class="filtro" data-filtro="cultural">Contexto cultural</button>
+      </div>
+
+      <div class="buscador">
+        <input type="search" id="buscar" placeholder="Buscar en el catálogo…" aria-label="Buscar en el catálogo" />
+        <span class="buscador__contador" id="contador">20 fichas</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SECCIONES DEL CATÁLOGO (se rellenan con JS) ============ -->
+  <main id="contenedor-secciones" class="catalogo"></main>
+
+  <!-- ============ GLOSARIO ============ -->
+  <section class="glosario" id="glosario">
+    <div class="hoja reveal">
+      <h3 class="titulo-seccion">Glosario de la redacción</h3>
+      <dl class="glosario__lista">
+        <div class="glosario__termino">
+          <dt>Género visual</dt>
+          <dd>Categoría de imágenes que comparten función, rasgos y contexto de uso.</dd>
+        </div>
+        <div class="glosario__termino">
+          <dt>Índice icónico</dt>
+          <dd>Relación física o de parecido entre la imagen y su referente.</dd>
+        </div>
+        <div class="glosario__termino">
+          <dt>Símbolo</dt>
+          <dd>Signo cuyo sentido se establece por convención cultural.</dd>
+        </div>
+        <div class="glosario__termino">
+          <dt>Fotograma</dt>
+          <dd>Imagen fija individual que, encadenada, produce la sensación de movimiento.</dd>
+        </div>
+        <div class="glosario__termino">
+          <dt>Viñeta</dt>
+          <dd>Cuadro autónomo dentro de una secuencia cómica o ilustrada.</dd>
+        </div>
+        <div class="glosario__termino">
+          <dt>Matriz</dt>
+          <dd>Superficie tallada (madera, metal, piedra) que recibe la tinta en la estampación.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ COLOFÓN ============ -->
+  <footer class="colofon" id="colofon">
+    <div class="filete-doble"></div>
+    <div class="colofon__interior">
+      <div class="colofon__bloque">
+        <h4>Colofón</h4>
+        <p>
+          Revista ilustrada de carácter educativo compuesta en <em>Playfair Display</em> y
+          <em>Libre Baskerville</em>, impresa en papel de estraza digital.
+          Compuesta a mano con HTML, CSS y JavaScript vanilla.
+        </p>
+      </div>
+      <div class="colofon__bloque colofon__bloque--autor">
+        <h4>Autoría</h4>
+        <p class="colofon__autor">Hecho por<br /><span>Valeria Molina</span></p>
+      </div>
+      <div class="colofon__bloque colofon__bloque--firma">
+        <p class="colofon__sello">Nº 04</p>
+        <p>© <span id="anio"></span> Valeria Molina — Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ BOTÓN SUBIR ============ -->
+  <button class="subir" id="subir" aria-label="Volver arriba">↑</button>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de la lámina" hidden>
+    <button class="lightbox__cerrar" id="lightbox-cerrar" aria-label="Cerrar">✕</button>
+    <figure class="lightbox__figura">
+      <img id="lightbox-img" src="" alt="" />
+      <figcaption id="lightbox-pie"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
